@@ -1,0 +1,10 @@
+h1{
+    background-color: black;
+    font-size: x-large;
+    font-style: inherit;
+}
+p{
+    background-color: blueviolet;
+    font-size: medium;
+    font-style: unset;
+}

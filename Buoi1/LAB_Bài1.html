@@ -1,0 +1,254 @@
+<html>
+    <head>
+        <title>Chương 1,2: Bài Tập</title>
+    </head>
+    <body>
+        <h1><center>Bài 1</center></h1>
+            <h2>1.Ý nghĩa thẻ:</h2>
+            <ul>
+                <li>- Thẻ &lt;p&gt; dùng để xác định 1 đoạn văn.</li>
+                <li>- Thẻ &lt;body&gt; xác định nội dung của tài liệu và nơi chứa nội dung hiển thị.</li>
+                <li>- Thẻ &lt;title&gt; chỉ định tiêu đề cho trang web.</li>
+                <li>- Thẻ &lt;head&gt; dùng để khai báo định dạng.</li>
+                <li>- Thẻ &lt;html&gt; là phần tử gốc của trang.</li>
+            </ul>
+            <h2>2.Ví dụ:</h2>
+            <ul>
+                <li>HTML Basic:</li>
+                    <p>&ensp;&lt;html&gt;<br>
+                        &lt;body&gt;<br>
+                        &lt;h1&gt;Tiêu đề đầu tiên của tôi.&lt;/h1&gt;<br>
+                        &lt;p&gt;Đoạn văn đầu tiên của tôi.&lt;/p&gt;<br>
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;</p>
+                <li>HTML Elementsi>
+                    <p>&ensp;"&lt;tagname&gt; Nội dung được viết trong đây&lt;/tagname&gt;"</p>
+                <li>HTML Attributes:</li>
+                    <ol>
+                        <li>Nhúng link: &lt;a href="link"&gt; Nội dung hiện thị. &lt;/a&gt;</li>
+                        <li>Nhúng ảnh: &lt;img src="link ảnh" alt="văn bản thay thế nếu ảnh không hiển thị."<br>
+                            style="width(chiều rộng):số%; height(chiều cao):số%;"&gt;</li>
+                        <li>Khai báo ngôn ngữ: lang nằm trong &lt;html&gt;<br>
+                            &lt;html lang="ký hiệu ngôn ngữ-quốc gia"&gt;</li>
+                        <li>Thuộc tính tiêu đề:<br>
+                            &lt;p title="Nội dung"&gt;Nội dung hiển thị.&lt;/p&gt;</li>
+                    </ol>
+                <li>HTML Headings:</li>
+                    <p>&ensp;Xác định từ &lt;h1&gt; đến &lt;h6&gt;</p>
+                    <p>&lt;h1&gt;Nội dung hiển thị&lt;/h1&gt;</p>
+                    <p>&lt;h1 style="font-size: sốpx;"&gt;Nội dung hiển thị&lt;/h1&gt;</p>
+                <li>HTML Paragraph:</li>
+                    <p>&lt;p&gt;Nội dung hiển thị.&lt;p&gt;</p>
+                    <p>&lt;hr&gt;tách nội dung:</p>
+                        <p>&lt;h1&gt;This is heading 1&lt;/h1&gt;
+                            &lt;p&gt;This is some text.&lt;/p&gt;
+                            &lt;hr&gt;</p>
+                    <p>&lt;br&gt;ngắt dòng:</p>
+                            <p>&lt;p&gt;This is&lt;br&gt;a paragraph&lt;br&gt;with line breaks.&lt;/p&gt;</p>
+                    <p>&lt;pre&gt; văn bản được định sẵn:</p>
+                            <p>&lt;pre&gt;
+                                My Bonnie lies over the ocean.<br>
+                                My Bonnie lies over the sea.<br>
+                                My Bonnie lies over the ocean.<br>
+                                Oh, bring back my Bonnie to me.<br>
+                              &lt;/pre&gt;</p>
+                <li>HTML style:</li>
+                    <p>&lt;tagname style="property:value;"&gt;&lt;/tagname&gt;</p>
+                <li>HTML formatting:</li>
+                    <p>&lt;style&gt;Nội dung hiển thị.&lt;/style&gt;</p>
+                <li>HTML Quotations:</li>
+                    <ol>
+                        <li>&lt;blockquote&gt;xác định phần được trích dẫn từ 1 nguồn:</li>
+                            <p>&lt;blockquote cite="link"&gt;<br>
+                                Nội dung hiển thị</p>
+                        <li>&lt;q&gt;trích dẫn ngắn:</li>
+                            <p>&lt;p&gt;WWF's goal is to: &lt;q&gt;Build a future where people live in harmony with nature.&lt;/q&gt;&lt;/p&gt;</p>
+                        <li>&lt;abbr&gt; từ được viết tắt:</li>
+                            <p>&lt;p&gt;The &lt;abbr title="World Health Organization"&gt;lWHO&lt;/abbr&gt; was founded in 1948.&lt;/p&gt;</p>
+                        <li>&lt;address&gt; thông tin liên hệ:</li>
+                            <p>&lt;address&gt;
+                                    Written by John Doe.&lt;/address&gt;</p>
+                        <li>&lt;cite&gt; trích dẫn:</li>
+                            <p>&lt;cite&gt;in nghiêng&lt;/cite&gt;</p>
+                        <li>&lt;bbo&gt; ghi đè:</li>
+                            <p>&lt;bdo dir="rtl"&gt;This text will be written from right to left&lt;/bdo&gt;</p>
+                    </ol>
+                <li>HTML Comment:</li>
+                    <p>&lt;!-- Write your comments here --&gt;</p>
+                <li>HTML Colors:</li>
+                    <p>&lt;h1 style="vị trí-color:thông số màu;"&gt;...&lt;/h1&gt;</p>
+                <li>HTML CSS:</li>
+                    <ol>
+                        <li>Inline CSS</li>
+                            <p> &lt;h1 style="color:blue;"&gt;A Blue Heading&lt;/h1&gt;
+                                &lt;p style="color:red;"&gt;A red paragraph.&lt;/p&gt;</p>
+                        <li>Internal CSS:</li>
+                            <p>&lt;html&gt;<br>
+                                &lt;head&gt;<br>
+                                &lt;style&gt;<br>
+                                body {background-color: powderblue;}<br>
+                                h1   {color: blue;}<br>
+                                p    {color: red;}<br>
+                                &lt;/style&gt;
+                                &lt;/head&gt;</p>
+                        <li>External CSS:</li>
+                            <p>&lt;html&gt;<br>
+                                &lt;head&gt;<br>
+                                &lt;style&gt;<br>
+                                    &lt;link rel="stylesheet" href="styles.css"&gt;
+                                &lt;/style&gt;
+                                &lt;/head&gt;</p>
+                    </ol>
+                <li>HTML Links:</li>
+                    <ul>
+                        <li>Nhúng link: &lt;a href="link"&gt; Nội dung hiện thị. &lt;/a&gt;</li>
+                        <li>Link Colors:</li>
+                            <p>&lt;style&gt;
+                                a:link {
+                                  color: green;
+                                  background-color: transparent;
+                                  text-decoration: none;
+                                }</p>
+                        <li>Link Bookmarks:</li>
+                            <p>&lt;id&gt; tạo dấu trang:
+                                &lt;h2 id="C4"&gt;Chapter 4&lt;/h2&gt;
+                            </p>
+                    </ul>
+                <li>HTML Image:</li>  
+                    <ol>
+                        <li>HTML Image maps:</li>
+                            <p>&lt;map name="workmap"&gt;
+                                &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"&gt;
+                                &lt;/map&gt;
+                            </p>
+                        <li>&lt;usemap&gt;giá trị được bắt đầu bằng # sau là bản đồ hình ảnh</li>
+                            <p>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap"&gt;</p>
+                        <li>Tạo bản đồ hình ảnh:</li>
+                            <p>&lt;name&gt; đi kèm &lt;map&gt; để tạo bản đồ
+                                &lt;map name="workmap"&gt;&lt;/map&gt;</p>
+                        <li>Hình dạng:</li>
+                            <p>Đi kèm tiền tố &lt;area&gt;:</p>
+                                <ol>
+                                    <li>&lt;rect&gt; 1 vùng chữ nhật.</li>
+                                    <li>&lt;circle&gt; 1 hình tròn.</li>
+                                    <li>&lt;poly&gt; 1 vùng đa giác.</li>
+                                    <li>&lt;default&gt; toàn bộ khu vực.</li>
+                                </ol>
+                            <p>&lt;area shape="hình dạng" coords="tọa độ" href="link"&gt;</p>
+                        <li>Hình nền trên 1 trang:</li>
+                            <p>&lt;style&gt;
+                                body {
+                                  background-image: url('img_girl.jpg');
+                                }
+                                &lt;/style&gt;</p>
+                        <li>Loại bỏ lặp lại:</li>
+                            <p>background-repeat: no-repeat;</p>
+                        <li>Hình nền bao phủ toàn bộ & đảm bảo luôn được bao phủ:</li>
+                            <p>background-attachment: fixed;
+                                background-size: cover;</p>
+                        <li>Căng nền:</li>
+                            <p>background-size: 100% 100%;</p>
+                        <li>&lt;picture&gt;căn chỉnh ảnh</li>
+                            <p>Mỗi thẻ &lt;picture&gt; chứa nhiều thẻ &lt;source&gt;</p>
+                            <p>Mỗi thẻ &lt;source&gt; đề cập đến các hình ảnh khác nhau thông qua thẻ &lt;scrset&gt;</p>
+                            <p>&lt;picture&gt;<br>
+                                &lt;source media="(min-width: 650px)" srcset="img_food.jpg"&gt;
+                                &lt;source media="(min-width: 465px)" srcset="img_car.jpg"&gt;
+                                &lt;img src="img_girl.jpg"&gt;
+                              &lt;/picture&gt;</p>
+                    </ol>      
+                <li>HTML Tables:</li>
+                    <ul>
+                        <li>&lt;table&gt; Tạo bảng</li>
+                        <li>Mọi thứ ở giữa &lt;td&gt;và &lt;/td&gt;là nội dung của ô bảng.</li>
+                        <li>Mỗi hàng của bảng bắt đầu bằng &lt;tr&gt;kết thúc &lt;/tr&gt;.</li>
+                        <li>&lt;th&gt; tiêu đề bảng</li>
+                        <li>Đường viền bảng:</li>
+                            <p>table, th, td {<br>
+                                border: 1px solid black;<br>
+                              }</p>
+                        <li>Thu gọn đường viền bảng:</li>
+                            <p>border-collapse: collapse;</p>
+                        <li>Màu nền bảng:</li>
+                            <p>background-color: số liệu màu;</p>
+                        <li>Viền tròn:</li>
+                            <p>border-radius: số px;</p>
+                        <li>Xóa viền ngoài: bỏ table</li>
+                        <li>Màu viền:</li>
+                            <p>border-color: số liệu màu;</p>
+                        <li>Điều chỉnh kích thước bảng: thêm style:</li>
+                        <li>Tiêu đề bảng dọc: thêm thẻ &lt;th&gt; vào ô đầu tiên mỗi hàng.</li>
+                        <li>Căn chỉnh tiêu đề bảng: text-align</li>
+                        <li>Tiêu đề nhiều cột: colspan</li>
+                            <p> &lt;table&gt;<br>
+                                    &lt;tr&gt;<br>
+                                        &lt;th colspan="2">Name&lt;/th&gt;<br>
+                                         &lt;th&gt;Age&lt;/th&gt;<br>
+                                     &lt;/tr&gt;<br>
+                                &lt;/table&gt;</p>
+                        <li>Chú thích: Caption</li>
+                        <li>Đệm ô: border-vị trí: số px</li>
+                        <li>Khoảng cách ô: border-spacing: số liệu px</li>
+                        <li>1 ô trải dài trên nhiều cột: colspan</li>
+                            <p> Giá trị của colspanthuộc tính biểu thị số cột cần mở rộng.</p>
+                            <p> &lt;table&gt;<br>
+                                    &lt;tr&gt;<br>
+                                    &lt;th colspan="2">Name&lt;/th&gt;<br>
+                                    &lt;/tr&gt;<br>
+                                &lt;/table&gt;</p>
+                        <li>1 ô trải dài trên nhiều hàng: rowspan</li>
+                            <p> Giá trị của rowspanthuộc tính biểu thị số lượng hàng cần kéo dài.</p>
+                        <li>Kiểu dáng bảng:</li>
+                            <ol>
+                                <li>Ngựa vằn:</li>
+                                    <p> tr:nth-child(even) {<br>
+                                        background-color: #D6EEEE;<br>
+                                        }</p>
+                                    <p>Sử dụng (odd)thay vì (even), kiểu dáng sẽ xuất hiện ở hàng 1,3,5, v.v. thay vì 2,4,6, v.v.</p>
+                                <li>Sọc vằn dọc: như trên thay tr=td</li>
+                                <li>rgba() chỉ độ trong suốt của màu</li>
+                                <li>Bảng chia ngang:thêm border-bottom cho tất cả trcác phần tử</li>
+                                <li>Bảng Hoverable:</li>
+                                    <p> Sử dụng :hover cho mọi phần tử tr để đánh dấu các hàng trong bảng khi di chuột qua:</p>
+                                    <p> tr:hover {background-color: #D6EEEE;}</p>
+                            </ol>
+                        <li>Bảng Colgroup</li>
+                            <p>Sử dụng các phần tử &lt;colgroup&gt; và &lt;col&gt;</p>
+                            <p>&lt;table&gt;<br>
+                                &lt;colgroup&gt;<br>
+                                  &lt;col span="2" style="background-color: #D6EEEE"&gt;<br>
+                                &lt;/colgroup&gt;</p>
+                            <p>Được sử dụng trong bảng Colgroup:</p>
+                                <p> width<br>
+                                    visibility<br>
+                                    background<br>
+                                    border</p>
+                    </ul>
+                <li>HTML List:</li>
+                    <p> &lt;ul&gt; không có thứ tự.</p>
+                    <p> &lt;ol&gt; có thứ tự.</p>
+                    <p> Danh sách mô tả:</p>
+                        <p> &lt;dl&gt; Mở đầu
+                                &lt;dt&gt;Thuật ngữ.&lt;/dt&gt;
+                                    &lt;dd&gt;Giải thích thuật ngữ&lt;/dd&gt;
+                                &lt;dt&gt;Thuật ngữ.&lt;/dt&gt;
+                                    &lt;dd&gt;Giải thích thuật ngữ.&lt;/dd&gt;
+                            &lt;/dl&gt;</p>
+                    <p> list-style-type:"type" được sử dụng để xác định kiểu của điểm đánh dấu đầu mục.</p>
+                    <p> float:leftđể hiển thị danh sách theo chiều ngang.</p>
+                    <p> Trong &lt;ol&gt;, start được dùng để chỉ định bắt đầu từ 1 số bất kỳ.</p>
+                <li>HTML Block & Inline:</li>
+                    <p> Phần tử &lt;p&gt; xác định một đoạn văn trong tài liệu HTML.<br>
+                        Phần tử &lt;div&gt; xác định một bộ phận hoặc một phần trong tài liệu HTML.</p>
+                    <p> Phần tử &lt;div&gt; thường được sử dụng làm vùng chứa cho các phần tử HTML khác.</p>
+                        <p> &lt;div style="background-color:black;color:white;padding:20px;"&gt;<br>
+                                &lt;h2&gt; London &lt;/h2&gt;<br>
+                                &lt;p&gt; area of over 13 million inhabitants.&lt;/p&gt;<br>
+                            &lt;/div&gt;</p>
+                    <p> &lt;span&gt; có thể được sử dụng để tạo kiểu cho các phần của văn bản.</p>
+                        <p> &lt;p&gt; My mother has &lt;span style="color:blue;font-weight:bold;"&gt; blue &lt;/span&gt; 
+                            eyes and my father has &lt;span style="color:darkolivegreen;font-weight:bold;"&gt; dark green &lt;/span&gt; eyes.&lt;/p&gt;</p>
+                    <p>  &lt;span&gt; được sử dụng để đánh dấu một phần của văn bản hoặc một phần của tài liệu.</p>
+            </ul>   
+    </body>
+</html>
